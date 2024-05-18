@@ -15,6 +15,7 @@
     <?php include($parts . "hero.php") ?>
     <?php include($parts . "cards.php") ?>
     <?php include($parts . "about.php") ?>
+    <?php include($parts . "cta.php") ?>
 
     <script src="assets/scripts/script.js"></script>
 </body>
