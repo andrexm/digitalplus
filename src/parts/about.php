@@ -4,9 +4,9 @@
     </div>
 
     <div>
-        <div class="text-center md:text-left text-keyword mb-2">Sobre nós</div>
+        <div class="text-center md:text-left text-keyword text-purple-500 mb-2">Sobre nós</div>
         <div class="text-center md:text-left title mb-2">Quem é a Digital<span class="text-purple-500">Plus</span>?</div>
-        <div class="mx-auto md:mx-0 line mb-6 md:mb-8"></div>
+        <div class="mx-auto md:mx-0 line bg-secondary-400 mb-6 md:mb-8"></div>
         <div class="text-justify md:text-left text-neutral-700 lg:text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec enim bibendum, convallis sem vel, bibendum quam. Phasellus pharetra pretium gravida. Etiam hendrerit risus id lobortis dapibus. Proin accumsan vel magna commodo commodo.
             <br><br>

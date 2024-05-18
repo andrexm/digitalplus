@@ -28,11 +28,11 @@ body {
 }
 
 .text-keyword {
-  @apply uppercase text-purple-500 font-bold
+  @apply uppercase font-bold
 }
 
 .line {
-  @apply h-[1.5px] bg-secondary-400 rounded-lg w-32
+  @apply h-[1.5px] rounded-lg w-32
 }
 
 /* navbar */
