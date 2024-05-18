@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply scroll-smooth
+}
+
+body {
+  @apply max-w-[1400px] mx-auto shadow-lg
+}
+
+.px {
+  @apply px-2 md:px-16 lg:px-32
+}
+
+.py {
+  @apply py-4 md:py-8 lg:py-16
+}
+
+.py2 {
+  @apply py-12 md:py-16 lg:py-24
+}
