@@ -78,10 +78,6 @@ body {
 }
 
 /* cards */
-.cards {
-  @apply px md:-mt-10 grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 lg:gap-10
-}
-
 .card-item {
   @apply p-3 md:p-4 lg:p-6 rounded-xl shadow-xl bg-white
 }
@@ -92,4 +88,33 @@ body {
 
 .card-item-text {
   @apply text-center font-medium md:font-bold text-sm md:text-lg
+}
+
+/** Forms ----------------- */
+
+@layer base {
+
+  [type='text'],
+  [type='password'],
+  [type='email'],
+  [type='number'],
+  [type='url'],
+  [type='date'],
+  [type='datetime-local'],
+  [type='month'],
+  [type='week'],
+  [type='time'],
+  [type='search'],
+  [type='tel'],
+  [multiple],
+  textarea,
+  .false-input,
+  select {
+    @apply w-full rounded-md shadow-sm border-secondary-200 ring-secondary-200 focus:border-primary-500 focus:ring-primary-500 transition duration-300 py-3;
+  }
+
+  [type='checkbox'],
+  [type='radio'] {
+    @apply rounded-lg border-gray-200 text-primary-600 focus:ring-primary-500 transition duration-300;
+  }
 }
