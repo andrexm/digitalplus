@@ -18,6 +18,7 @@
     <?php include($parts . "cta.php") ?>
     <?php include($parts . "services.php") ?>
     <?php include($parts . "contact.php") ?>
+    <?php include($parts . "footer.php") ?>
 
     <script src="assets/scripts/script.js"></script>
 </body>
