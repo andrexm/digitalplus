@@ -7,7 +7,7 @@
 }
 
 body {
-  @apply max-w-[1400px] mx-auto shadow-lg
+  @apply max-w-[1400px] mx-auto shadow-lg bg-neutral-100
 }
 
 .px {
@@ -20,4 +20,42 @@ body {
 
 .py2 {
   @apply py-12 md:py-16 lg:py-24
+}
+
+/* navbar */
+.navbar {
+  @apply bg-white border-gray-200 shadow-lg
+}
+
+.navbar-content {
+  @apply max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4
+}
+
+.navbar .logo {
+  @apply flex items-center space-x-3 rtl:space-x-reverse
+}
+
+.nav-item {
+  @apply block py-2 px-3 font-semibold rounded md:text-neutral-700 md:hover:text-primary-400 transition duration-300 md:p-0
+}
+
+.nav-item.active {
+  @apply bg-primary-500 text-white md:bg-transparent md:text-primary-500
+}
+
+.navbar-toggle {
+  @apply inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200
+}
+
+#navbar-default {
+  @apply w-full md:block md:w-auto
+}
+
+/* buttons */
+.btn {
+  @apply px-8 py-2 rounded-full font-semibold transition duration-500 uppercase
+}
+
+.btn.btn-outline-primary {
+  @apply border border-primary-500 bg-transparent hover:bg-primary-500 text-primary-500 hover:text-white
 }

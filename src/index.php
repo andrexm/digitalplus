@@ -1,3 +1,4 @@
+<?php $parts = __DIR__ . "/parts/" ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,6 +8,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="px py">Hi!</div>
+    <?php include($parts . "navbar.php") ?>
+    <?php include($parts . "hero.php") ?>
+
+    <script src="assets/scripts/script.js"></script>
 </body>
 </html>
