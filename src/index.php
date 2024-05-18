@@ -14,6 +14,7 @@
     <?php include($parts . "navbar.php") ?>
     <?php include($parts . "hero.php") ?>
     <?php include($parts . "cards.php") ?>
+    <?php include($parts . "about.php") ?>
 
     <script src="assets/scripts/script.js"></script>
 </body>
